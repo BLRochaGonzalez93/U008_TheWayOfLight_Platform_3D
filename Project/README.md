@@ -147,10 +147,6 @@ Scripts destacados:
 - `ShapeGenerator`
 - `TerrainFace`
 
-Más información en:
-
-[`Docs/Architecture.md`](./Docs/Architecture.md)
-
 ## Código recomendado para revisar
 
 - [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerController.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerController.cs)
@@ -170,7 +166,7 @@ Más información en:
 
 La build está disponible en GitHub Releases.
 
-[`Releases/Download.md`](./Releases/Download.md)
+[`Releases/Download.md`](../Releases/Download.md)
 
 [Descargar build U008-v1.0.0](https://github.com/BLRochaGonzalez93/U008_TheWayOfLight_Platform_3D/releases/tag/U008-v1.0.0)
 
