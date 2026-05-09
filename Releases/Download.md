@@ -71,4 +71,4 @@ Demo funcional 3D.
 
 ## Repositorio
 
-[Ver repositorio del proyecto](https://github.com/BLRochaGonzalez93/U010_Sokar/U008_TheWayOfLight_Platform_3D)
+[Ver repositorio del proyecto](https://github.com/BLRochaGonzalez93/U008_TheWayOfLight_Platform_3D)

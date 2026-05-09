@@ -15,8 +15,8 @@ Mi contribución se centra en programación gameplay, sistemas de jugador, enemi
 
 ## Documentación
 
-- [`Media/Diagrams/TheWayOfLight_GDD.pdf`](./Media/Diagrams/TheWayOfLight_GDD.pdf)
-- [`Media/Diagrams/TheWayOfLight_MDA.pdf`](./Media/Diagrams/TheWayOfLight_MDA.pdf)
+[`Media/Diagrams/TheWayOfLight_GDD.pdf`](../Media/Diagrams/TheWayOfLight_GDD.pdf)
+[`Media/Diagrams/TheWayOfLight_MDA.pdf`](../Media/Diagrams/TheWayOfLight_MDA.pdf)
 
 ## Tecnologías
 
@@ -102,7 +102,7 @@ Mi contribución se centra en programación gameplay, sistemas de jugador, enemi
 
 Ruta prevista:
 
-![Gameplay](./Media/screenshots/gameplay-01.png)
+![Gameplay](../Media/screenshots/gameplay-01.png)
 
 ## Arquitectura
 
@@ -149,18 +149,18 @@ Scripts destacados:
 
 ## Código recomendado para revisar
 
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerController.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerController.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/Fight.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/Fight.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerInventory.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerInventory.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/EnemyPatrolController.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/EnemyPatrolController.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/EnemyFollowerControl.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/EnemyFollowerControl.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/Boss/BossState.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/Boss/BossState.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/Boss/BossAttacks.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/Boss/BossAttacks.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/CheckPoint.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/CheckPoint.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/PortalController.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/PortalController.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/MobilePlatform.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/MobilePlatform.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/UI/GameHandler.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/UI/GameHandler.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Planet/Planet.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Planet/Planet.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerController.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerController.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/Fight.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/Fight.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerInventory.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerInventory.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/EnemyPatrolController.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/EnemyPatrolController.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/EnemyFollowerControl.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/EnemyFollowerControl.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/Boss/BossState.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/Boss/BossState.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/Boss/BossAttacks.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/Boss/BossAttacks.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/CheckPoint.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/CheckPoint.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/PortalController.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/PortalController.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/MobilePlatform.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/MobilePlatform.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/UI/GameHandler.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/UI/GameHandler.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/Planet/Planet.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/Planet/Planet.cs)
 
 ## Build
 

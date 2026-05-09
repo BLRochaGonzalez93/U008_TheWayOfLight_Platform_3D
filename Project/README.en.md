@@ -15,8 +15,8 @@ My contribution focuses on gameplay programming, player systems, enemies, UI, ga
 
 ## Documentation
 
-- [`Media/Diagrams/TheWayOfLight_GDD.pdf`](./Media/Diagrams/TheWayOfLight_GDD.pdf)
-- [`Media/Diagrams/TheWayOfLight_MDA.pdf`](./Media/Diagrams/TheWayOfLight_MDA.pdf)
+[`Media/Diagrams/TheWayOfLight_GDD.pdf`](../Media/Diagrams/TheWayOfLight_GDD.pdf)
+[`Media/Diagrams/TheWayOfLight_MDA.pdf`](../Media/Diagrams/TheWayOfLight_MDA.pdf)
 
 ## Technologies
 
@@ -102,7 +102,7 @@ My contribution focuses on gameplay programming, player systems, enemies, UI, ga
 
 Planned path:
 
-![Gameplay](./Media/screenshots/gameplay-01.png)
+![Gameplay](../Media/screenshots/gameplay-01.png)
 
 ## Architecture
 
@@ -149,24 +149,24 @@ Highlighted scripts:
 
 ## Recommended code to review
 
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerController.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerController.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/Fight.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/Fight.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerInventory.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerInventory.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/EnemyPatrolController.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/EnemyPatrolController.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/EnemyFollowerControl.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/EnemyFollowerControl.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/Boss/BossState.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/Boss/BossState.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/Boss/BossAttacks.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/Boss/BossAttacks.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/CheckPoint.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/CheckPoint.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/PortalController.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/PortalController.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/MobilePlatform.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/MobilePlatform.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/UI/GameHandler.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/UI/GameHandler.cs)
-- [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Planet/Planet.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Planet/Planet.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerController.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerController.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/Fight.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/Fight.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerInventory.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerInventory.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/EnemyPatrolController.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/EnemyPatrolController.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/EnemyFollowerControl.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/EnemyFollowerControl.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/Boss/BossState.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/Boss/BossState.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/Boss/BossAttacks.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/Enemies/Boss/BossAttacks.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/CheckPoint.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/CheckPoint.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/PortalController.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/PortalController.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/MobilePlatform.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/General/MobilePlatform.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/UI/GameHandler.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/UI/GameHandler.cs)
+[`PRJ_ElCaminoDeLaLuz/Assets/Scripts/Planet/Planet.cs`](./PRJ_ElCaminoDeLaLuz/Assets/Scripts/Planet/Planet.cs)
 
 ## Build
 
 The build is available through GitHub Releases.
 
-[`Releases/Download.md`](../Releases/Download.md)
+[`Releases/Download.en.md`](../Releases/Download.en.md)
 
 [Download build U008-v1.0.0](https://github.com/BLRochaGonzalez93/U008_TheWayOfLight_Platform_3D/releases/tag/U008-v1.0.0)
 
