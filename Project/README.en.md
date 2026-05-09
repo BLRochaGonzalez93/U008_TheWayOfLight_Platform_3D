@@ -4,23 +4,19 @@
 
 ## Summary
 
-**The Way of Light Platform 3D**, also documented as **El Camino de la Luz**, is a functional 3D demo developed in Unity with C#. The project combines 3D platforming, adventure, exploration, combat, traps, collectibles, checkpoints, puzzles and medieval fantasy narrative.
+Functional 3D demo developed in Unity with C#. **The Way of Light Platform 3D / El Camino de la Luz** is a platforming, action and adventure project set in a medieval fantasy world, starring **Sir Cedric of the Light**.
 
-The player controls **Sir Cedric of the Light**, a knight from the Order of Light who begins a journey to rescue Princess Guinevere, face dark creatures and discover fragments of his past. The experience is set in the **Kingdom of Arden**, a medieval fantasy world where light, darkness, honor and redemption are central narrative elements.
+The experience combines 3D movement, exploration, sword combat, ranged special attack, enemies, boss, checkpoints, collectibles, chests, puzzles, portals, traps and narrative. The game is supported by GDD/MDA documentation defining world, mechanics, dynamics, aesthetics, enemies, objects, menus and controls.
 
 ## Collaboration
 
 Project developed together with **Alejandro González Iglesias**.  
 My contribution focuses on gameplay programming, player systems, enemies, UI, game flow, technical documentation and portfolio preparation.
 
-## Design documentation
-
-The project includes design documentation inside:
+## Documentation
 
 - [`Media/Diagrams/TheWayOfLight_GDD.pdf`](./Media/Diagrams/TheWayOfLight_GDD.pdf)
 - [`Media/Diagrams/TheWayOfLight_MDA.pdf`](./Media/Diagrams/TheWayOfLight_MDA.pdf)
-
-These documents cover the game concept, narrative, world, main character, enemies, objects, menus, controls, mechanics, dynamics, aesthetics, references and design planning.
 
 ## Technologies
 
@@ -68,7 +64,7 @@ These documents cover the game concept, narrative, world, main character, enemie
 - Chests.
 - Puzzles.
 - Interactive signs.
-- Doors and portals.
+- Doors / portals.
 - Moving platforms.
 - Breakable platforms.
 - Pendulum traps.
@@ -77,55 +73,47 @@ These documents cover the game concept, narrative, world, main character, enemie
 - Options menu.
 - Pause.
 - HUD.
-- Sound and music.
+- Sound.
+- Music.
 - Playable Windows build.
 
 ## Implemented enemies
 
-- **Sombra Alada** — flying enemy with patrol movement.
-- **Goblin Pícaro** — ground enemy with chase behavior.
-- **Wolf** — fast chasing enemy.
-- **Dracus** — dragon boss with special attacks.
+- Sombra Alada.
+- Goblin Pícaro.
+- Wolf.
+- Dracus / dragon boss.
 
 ## Designed / planned
 
-In addition to the implemented content, the project design includes:
-
 - More levels or zones.
-- Alternative routes and extra stages.
-- More enemies and behavior variations.
-- Additional rewards.
-- More diary pages and narrative fragments.
-- More complete lockpick minigame for chests.
-- Save and load system.
-- Time trial and secondary objectives.
-- Expanded puzzles and interactable objects.
-- Expanded Kingdom of Arden lore.
+- More alternative routes and extra stages.
+- More enemies and bosses.
+- More objects and rewards.
+- More complete save/load system.
+- More diary pages and lore.
+- Kingdom of Arden expansion.
+- Improvements to puzzles, chests and lockpicks.
+- Greater variety of platforms, traps and obstacles.
 
-## Visuals
+## Screenshots
 
-> Final screenshots and images pending.
+> Final screenshots pending.
 
-Planned visual pack names:
+Planned path:
 
-- `thewayoflight-logo.png`
-- `thewayoflight-cover.png`
-- `thewayoflight-banner.png`
-- `thewayoflight-thumbnail-01-platforming.png`
-- `thewayoflight-thumbnail-02-combat.png`
-- `thewayoflight-thumbnail-03-boss-fight.png`
-- `thewayoflight-thumbnail-04-light-path.png`
+![Gameplay](./Media/screenshots/gameplay-01.png)
 
 ## Architecture
 
-The main logic is organized inside `Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/` into several areas:
+The main logic is organized into:
 
-- **Camera** — camera follow and camera control.
-- **Enemies** — common enemies, pools, chase behavior, patrol behavior and boss.
-- **General** — checkpoints, portals, platforms, coins, traps, signs and level elements.
-- **Planet** — planet/terrain generation or representation.
-- **Player** — movement, combat, inventory, player camera and damage.
-- **UI** — menus, options, pause, inventory and general game handling.
+- `Camera` — follow camera and virtual cameras.
+- `Enemies` — common enemies, enemy pool and boss.
+- `General` — checkpoints, portals, platforms, coins, traps, signs and level elements.
+- `Planet` — planet/terrain generation or representation.
+- `Player` — movement, combat, inventory, damage and camera switching.
+- `UI` — menus, pause, options, inventory and general handler.
 
 Highlighted scripts:
 
@@ -159,6 +147,10 @@ Highlighted scripts:
 - `ShapeGenerator`
 - `TerrainFace`
 
+More information:
+
+[`Docs/Architecture.md`](./Docs/Architecture.md)
+
 ## Recommended code to review
 
 - [`Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerController.cs`](./Project/PRJ_ElCaminoDeLaLuz/Assets/Scripts/Player/PlayerController.cs)
@@ -178,13 +170,15 @@ Highlighted scripts:
 
 The build is available through GitHub Releases.
 
+[`Releases/Download.md`](./Releases/Download.md)
+
 [Download build U008-v1.0.0](https://github.com/BLRochaGonzalez93/U008_TheWayOfLight_Platform_3D/releases/tag/U008-v1.0.0)
 
 ## Status
 
 **Functional 3D demo.**
 
-The project includes a playable base with 3D movement, combat, enemies, boss, checkpoints, respawn, coins, keys, gems, lockpicks, chests, puzzles, portals, moving platforms, traps, menus, HUD, sound, music and design documentation.
+The project contains a playable base with 3D platforming, combat, enemies, boss, checkpoints, respawn, collectibles, chests, puzzles, portals, platforms, traps, menus, HUD, sound, music and design documentation.
 
 Possible pending improvements:
 
@@ -202,10 +196,10 @@ Possible pending improvements:
 
 ## Learnings
 
-This project allowed me to work on 3D character control with physics, jump, double jump, rolling, climbing and navigation through platforming scenarios.
+This project allowed me to work on 3D character control, physics, platforming, jump, double jump, rolling, climbing and navigation through 3D scenarios.
 
-It also helped me practice melee combat, sword combos, ranged special attack, damage, lives, Game Over, checkpoints and respawn.
+It also helped me practice sword combat, combos, ranged special attack, enemies with different patterns, boss, damage, lives, Game Over, checkpoints and respawn.
 
-In addition, I worked on enemies with different patterns, including patrol, chase and boss behavior, together with traps, moving platforms, breakable platforms and interactable objects.
+In addition, I implemented and organized level systems such as coins, keys, gems, lockpicks, chests, puzzles, signs, portals, moving platforms, breakable platforms, pendulum traps and falling rocks.
 
-The project also helped me integrate narrative, GDD/MDA documentation, HUD, menus, sound, music and a broad script structure separated by functional areas.
+Finally, the project allowed me to integrate professional design documentation, narrative, UI, menus, sound, music and a broad architecture divided by functional areas.
